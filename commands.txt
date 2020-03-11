@@ -1,0 +1,23 @@
+
+TextGCN:
+
+cd/d D:\Onedrive\OneDrive - HKUST Connect\RA_HSUHK\Experiments\TextGCN
+python remove_words.py laptop_cpu
+python build_graph.py laptop_cpu
+python train.py laptop_cpu
+
+python remove_words.py laptop_hd
+python build_graph.py laptop_hd
+python train.py laptop_hd
+
+python remove_words.py laptop_gpu
+python build_graph.py laptop_gpu
+python train.py laptop_gpu
+
+python remove_words.py laptop_screen
+python build_graph.py laptop_screen
+python train.py laptop_screen
+
+python remove_words.py laptop_ram
+python build_graph.py laptop_ram
+python train.py laptop_ram
